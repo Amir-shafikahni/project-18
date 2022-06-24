@@ -54,7 +54,6 @@ body{
 
 .themeContainer .fa-moon {
     display: inline-block;
-    margin-top: 2px;
     color: white;
     opacity: 1;
     transition: 0.3s;
