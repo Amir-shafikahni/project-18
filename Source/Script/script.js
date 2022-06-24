@@ -22,7 +22,6 @@ function domUpdater() {
 function themeCheckByLocalStorage() {
   let theme = localStorage.getItem("theme");
   if (theme === "light") {
-    console.log(2);
     lightTheme();
   } else if (theme === "dark") {
     darkTheme();
