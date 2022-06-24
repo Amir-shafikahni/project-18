@@ -15,7 +15,7 @@ let isLight = true;
 // to update user screen height 
 function domUpdater() {
     let liveUserScreenHeight = visualViewport.height;
-    body.style.height = liveUserScreenHeight + "px";
+    body.style.minHeight = liveUserScreenHeight + "px";
 }
   
 // local theme check before load
